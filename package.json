@@ -1,0 +1,9 @@
+{
+  "name": "app",
+  "private": "true",
+  "scripts": {
+    "build": "esbuild app/javascript/application.tsx --bundle --sourcemap --outdir=app/assets/builds",
+    "check-types": "tsc --project tsconfig.json --noEmit --watch --preserveWatchOutput"
+  }
+  
+}
